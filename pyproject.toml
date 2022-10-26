@@ -1,0 +1,28 @@
+[project]
+name = "kdecolepy"
+description = "Support non-officiel de l'API Kdecole (Mon Bureau Numérique, Skolengo, ...)"
+version = "0.1.0"
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["API", "Kdecole", "Kosmos", "Skolengo", "Mon Bureau Numérique"]
+authors = [
+    { name = "Maël Gangloff", email = "contact@maelgangloff.fr" }
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+
+]
+dependencies = [
+    "requests"
+]
+
+[project.urls]
+homepage = "https://github.com/maelgangloff/kdecole-py"
+documentation = "https://github.com/maelgangloff/kdecole-py"
+repository = "https://github.com/maelgangloff/kdecole-py"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
