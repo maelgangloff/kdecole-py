@@ -40,7 +40,7 @@ class Kdecole:
         Cet appel est initialement réalisé par l'application mobile pour vérifier si le token et la version de l'app sont valides.
         Le serveur retourne un code de statut `HTTP 204 No Content` si l'utilisateur est correctement authentifié.
         """
-        response = self.__kdecole('starting').json()
+        response = self.__kdecole('starting')
         if response.status_code == 403:
             raise Exception("L'utilisateur ne semble pas être correctement authentifié.")
         elif response.status_code != 204:
