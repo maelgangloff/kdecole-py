@@ -1,7 +1,7 @@
 [project]
 name = "kdecolepy"
 description = "Support non-officiel de l'API Kdecole (Mon Bureau Numérique, Skolengo, ...)"
-version = "0.1.1"
+version = "0.1.2"
 license = "GPL-3.0-only"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -12,7 +12,6 @@ authors = [
 classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-
 ]
 dependencies = [
     "requests"
