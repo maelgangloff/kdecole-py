@@ -1,8 +1,7 @@
 # kdecole-py
 
 <p align="center">
-  <img src="https://github.com/maelgangloff/kdecole-py/assets/51171251/07e83324-305b-450a-9ed9-c7587b40088a" height="320" width="640" />
-
+  <img src="https://github.com/maelgangloff/kdecole-py/assets/51171251/2ebae9d8-1ac3-482b-a118-37ce88f63062" height="320" width="640" />
 </p>
 
 Transcription de la librairie NodeJS [kdecole-api](https://github.com/maelgangloff/kdecole-api) en Python.  
